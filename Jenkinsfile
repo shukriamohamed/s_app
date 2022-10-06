@@ -21,7 +21,7 @@ pipeline
 			steps
 			{
 				echo 'This is Deploy part'
-				sh 'chmod 777 build.sh'
+				sh 'chmod 777 run.sh'
 				sh './run.sh'
 			
 		
