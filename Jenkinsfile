@@ -10,7 +10,7 @@ pipeline
 			{
 				echo 'This is Build part'
 				
-				sh 'python3 App.py'
+				sh 'sudo docker build . -t jenny24/app_jen:1'
 				
 			}				
         	}
