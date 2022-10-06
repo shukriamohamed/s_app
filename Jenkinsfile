@@ -24,7 +24,7 @@ pipeline
 				sh 'chmod 777 build.sh'
 				sh './run.sh'
 			
-				sh 'python3 test.py'
+		
 			}
 		}
 	stage('Admin Approval') 
