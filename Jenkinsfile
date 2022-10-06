@@ -21,6 +21,7 @@ pipeline
 			steps
 			{
 				echo 'This is Deploy part'
+				sh 'chmod 777 build.sh'
 				sh './run.sh'
 			
 				sh 'python3 test.py'
