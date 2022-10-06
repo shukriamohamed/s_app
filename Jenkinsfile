@@ -20,7 +20,8 @@ pipeline
 			agent any
 			steps
 			{
-				echo 'This is Test part'
+				echo 'This is Deploy part'
+				sh './run.sh'
 			
 				sh 'python3 test.py'
 			}
