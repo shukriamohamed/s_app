@@ -9,6 +9,8 @@ pipeline
             		steps 
 			{
 				echo 'This is Build part'
+				sh 'yes | apt-get update'
+				sh 'yes | apt-get install python3-pip'
 				sh 'pip3 install flask'
 				sh 'python3 App.py'
 				
