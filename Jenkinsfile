@@ -9,7 +9,7 @@ pipeline
             		steps 
 			{
 				echo 'This is Build part'
-			
+				sh 'pip install flask'
 				sh 'python3 App.py'
 				
 			}				
